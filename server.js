@@ -21,7 +21,6 @@ mongoose.connect(process.env.MONGODB);
 app.use(helmet());
 app.use(compression());
 
-
 require('./passport/passport-local');
 
 app.use(cors());
